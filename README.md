@@ -29,13 +29,13 @@ To use VeggieDelight, follow these steps:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/recipeexplorer.git
+    git clone https://github.com/francescovitale-dev/VeggieDelight.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd recipeexplorer
+    cd VeggieDelight
     ```
 
 3. Install dependencies:
@@ -56,7 +56,7 @@ To use VeggieDelight, follow these steps:
 
 ![screenshot](src/images/screenshot.png)
 
-Check out the live demo of VeggieDelight: [VeggieDelight](https://veggiedelight-demo.com)
+Check out the live demo of VeggieDelight: [VeggieDelight](https://veggiedelight.netlify.app/)
 
 ## Credits
 
