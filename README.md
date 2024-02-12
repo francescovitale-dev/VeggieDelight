@@ -54,7 +54,7 @@ To use VeggieDelight, follow these steps:
 
 ## Demo
 
-![screenshot](src/assets/images/screenshot.png)
+![screenshot](src/images/screenshot.png)
 
 Check out the live demo of VeggieDelight: [VeggieDelight](https://veggiedelight-demo.com)
 
