@@ -8,7 +8,7 @@ const RecipeSearch = () => {
   const [query, setQuery] = useState("");
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [searched, setSearched] = useState(false); // Nuovo stato per tenere traccia della ricerca
+  const [searched, setSearched] = useState(false);
 
   const handleInputChange = (event) => {
     setQuery(event.target.value);
@@ -28,7 +28,7 @@ const RecipeSearch = () => {
           },
         }
       );
-      setSearched(true); // Imposta lo stato searched a true dopo aver effettuato la ricerca
+      setSearched(true); 
       setLoading(false);
       setRecipes(response.data.results);
       if (response.data.results.length === 0) {
@@ -39,6 +39,7 @@ const RecipeSearch = () => {
           confirmButtonText: "OK",
         });
       }
+      setSearched(false); 
     } catch (error) {
       setLoading(false);
       console.error("Error fetching recipes:", error);
