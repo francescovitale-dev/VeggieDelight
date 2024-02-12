@@ -24,7 +24,7 @@ const RecipeSearch = () => {
             query: query,
             diet: "vegetarian",
             number: 50,
-            apiKey: "437d7dd8b25a45ce82bd48dba9937285",
+            apiKey: "f4bc6eac20054f8c9106211fc38f4156",
           },
         }
       );
@@ -73,7 +73,7 @@ const RecipeSearch = () => {
         </div>
       </div>
       {loading && <div className="loading">Loading...</div>}
-      {!searched && <div className="div"> {/* Mostra Home solo se la ricerca non è stata effettuata */}
+      {!searched && <div className="div">
         <Home />
       </div>}
       <div className="row justify-content-center mt-3">
