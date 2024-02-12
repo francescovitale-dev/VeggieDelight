@@ -8,6 +8,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [How To Use](#how-to-use)
+- [Demo](#demo)
 - [Credits](#credits)
 
 ## Overview
@@ -34,7 +35,7 @@ To use VeggieDelight, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd VeggieDelight
+    cd recipeexplorer
     ```
 
 3. Install dependencies:
@@ -51,9 +52,15 @@ To use VeggieDelight, follow these steps:
 
 5. Access the application through your web browser at http://localhost:3000
 
+## Demo
+
+![screenshot](src/assets/images/screenshot.png)
+
+Check out the live demo of VeggieDelight: [VeggieDelight](https://veggiedelight-demo.com)
+
 ## Credits
 
-VeggieDelight utilizes the following technologies, languages, and libraries:
+RecipeExplorer utilizes the following technologies, languages, and libraries:
 
 - [React](https://reactjs.org/)
 - [axios](https://github.com/axios/axios)

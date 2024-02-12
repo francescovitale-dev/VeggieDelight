@@ -1,4 +1,4 @@
-import pizzaImage from "./pizza.jpg"
+import pizzaImage from "../images/pizza.jpg"
 
 const Home = () => {
   return (
