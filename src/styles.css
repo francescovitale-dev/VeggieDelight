@@ -35,11 +35,11 @@ body {
 }
 
 .navbar-brand {
-  color: var(--background-color);
+  color: var(--background-color) !important;
 }
 
 .navbar-brand:hover {
-  color: var(--background-color);
+  color: var(--background-color) !important;
 }
 
 /* navbar */
