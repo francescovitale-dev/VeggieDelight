@@ -33,6 +33,11 @@ const RecipeDetails = () => {
     fetchRecipeDetails();
   }, [id]);
 
+  useEffect(() => {
+    // Redirect to the homepage when the component mounts or updates
+    window.history.pushState({}, '', '/');
+  }, []);
+
   if (!recipe) {
     return <div>Loading...</div>;
   }
