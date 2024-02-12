@@ -24,7 +24,7 @@ const RecipeSearch = () => {
             query: query,
             diet: "vegetarian",
             number: 50,
-            apiKey: "c1b91dbbc79d47e38a23dbdce4447179",
+            apiKey: "437d7dd8b25a45ce82bd48dba9937285",
           },
         }
       );
