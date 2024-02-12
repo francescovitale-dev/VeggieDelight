@@ -52,6 +52,12 @@ const RecipeSearch = () => {
     }
   };
 
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter") {
+      searchRecipes();
+    }
+  };
+
   return (
     <div className="container">
       <div className="row justify-content-center form-container">
@@ -62,6 +68,7 @@ const RecipeSearch = () => {
               className="form-control"
               value={query}
               onChange={handleInputChange}
+              onKeyPress={handleKeyPress}
               placeholder="Search vegetarian recipes..."
             />
             <div className="input-group-append">
