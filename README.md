@@ -63,10 +63,11 @@ Check out the live demo of VeggieDelight: [VeggieDelight](https://veggiedelight-
 RecipeExplorer utilizes the following technologies, languages, and libraries:
 
 - [React](https://reactjs.org/)
-- [axios](https://github.com/axios/axios)
+- [Axios](https://github.com/axios/axios)
 - [Sweetalert2](https://sweetalert2.github.io/)
 - [React Router](https://reactrouter.com/)
 - [Bootstrap](https://getbootstrap.com/)
+- [Vite](https://vitejs.dev/)
 
 ---
 
