@@ -38,8 +38,8 @@ const RecipeSearch = () => {
           icon: "info",
           confirmButtonText: "OK",
         });
+        setSearched(false); 
       }
-      setSearched(false); 
     } catch (error) {
       setLoading(false);
       console.error("Error fetching recipes:", error);
