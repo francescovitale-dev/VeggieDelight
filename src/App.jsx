@@ -11,16 +11,16 @@ import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    (
-      <div className="App">
+    <div className="app-container">
+      <div className="content">
         <Navbar />
         <Routes>
-        <Route path="/" element={<RecipeSearch />} /> 
-        <Route path="/recipe/:id" element={<RecipeDetails />} /> 
+          <Route path="/" element={<RecipeSearch />} /> 
+          <Route path="/recipe/:id" element={<RecipeDetails />} /> 
         </Routes>
-        <Footer />
       </div>
-    )
+      <Footer />
+    </div>
   );
 }
 
